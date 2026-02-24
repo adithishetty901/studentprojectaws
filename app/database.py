@@ -2,10 +2,10 @@ from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker, declarative_base
 
 DB_USER = "root"
-DB_PASSWORD = "jaya@123"
+DB_PASSWORD = "Adit@1234"
 DB_HOST = "localhost"
 DB_PORT = "3306"
-DB_NAME = "project1"
+DB_NAME = "student_db"
 
 # First connect without DB
 server_url = f"mysql+pymysql://{DB_USER}:{DB_PASSWORD.replace('@','%40')}@{DB_HOST}:{DB_PORT}"
